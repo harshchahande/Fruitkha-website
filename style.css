@@ -1,0 +1,42 @@
+body::-webkit-scrollbar {
+  background: linear-gradient(pink, white, pink);
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgb(242, 129, 35), rgb(242, 129, 35));
+  border-radius: 10px;
+}
+
+/* section 1 */
+.s1-a {
+  color: black;
+}
+.s1-a:hover {
+  color: rgb(242, 129, 35);
+}
+/* section 2 */
+.s2-padding {
+  margin-bottom: 200px;
+}
+.s2-d1 {
+  padding-top: 5%;
+}
+.s2-h1 {
+  font-size: 400%;
+}
+/* section 3 */
+.s3-a {
+  border: 3px dotted;
+}
+/* section 5 */
+.s5-c {
+  border: 2px solid rgb(242, 129, 35);
+}
+/* section 8 */
+.s8-r {
+  background-image: url(img/t.jpg);
+  background-repeat: no-repeat;
+}
+/* section 10 */
+.s10:hover {
+  transform: scale(0.6);
+}
